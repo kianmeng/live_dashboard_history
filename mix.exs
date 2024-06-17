@@ -2,13 +2,13 @@ defmodule LiveDashboardHistory.MixProject do
   use Mix.Project
 
   @source_url "http://github.com/bglusman/live_dashboard_history"
-  @version "0.1.4"
+  @version "0.1.5"
 
   def project do
     [
       app: :live_dashboard_history,
       version: @version,
-      elixir: "~> 1.7",
+      elixir: "~> 1.11",
       compilers: [:phoenix] ++ Mix.compilers(),
       start_permanent: Mix.env() == :prod,
       aliases: aliases(),
